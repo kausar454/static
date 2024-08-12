@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Kombat Games Free Key Generator</title>
+    <meta name="description" content="Generate free keys for Hamster Kombat games: Biike, Clone, Cube, and Train. Retro sci-fi themed key generator for your favorite hamster combat games!">
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #ffa500;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .game-card {
+            background-color: #111;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
+        }
+        .game-icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+            background-color: #00f;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            color: #ff0;
+        }
+        .btn {
+            background-color: #ffa500;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #ff0;
+        }
+        #message {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #ff0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hamster Kombat Games Free Key Generator</h1>
+        <div class="game-grid">
+            <div class="game-card">
+                <div class="game-icon">🚲</div>
+                <h2>Biike</h2>
+                <button class="btn" onclick="generateKey('Biike')">Select</button>
+            </div>
+            <div class="game-card">
+                <div class="game-icon">👥</div>
+                <h2>Clone</h2>
+                <button class="btn" onclick="generateKey('Clone')">Select</button>
+            </div>
+            <div class="game-card">
+                <div class="game-icon">🧊</div>
+                <h2>Cube</h2>
+                <button class="btn" onclick="generateKey('Cube')">Select</button>
+            </div>
+            <div class="game-card">
+                <div class="game-icon">🚂</div>
+                <h2>Train</h2>
+                <button class="btn" onclick="generateKey('Train')">Select</button>
+            </div>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script>
+        function generateKey(game) {
+            document.getElementById('message').innerHTML = `
+                <h2>${game}</h2>
+                <button class="btn" onclick="showMessage('${game}')">Generate Key</button>
+            `;
+        }
+        function showMessage(game) {
+            document.getElementById('message').innerHTML += '<p>Message</p>';
+        }
+    </script>
+</body>
+</html>
